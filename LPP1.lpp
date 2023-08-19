@@ -1,0 +1,7 @@
+cadena [25] saludo
+inicio
+
+saludo<-"hola mundo"
+escriba saludo
+
+fin
