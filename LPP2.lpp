@@ -1,0 +1,9 @@
+cadena [25] nom
+inicio
+
+escriba "Hola, por favor podrias ingresar tu nombre:"
+lea nom
+escriba "bienvenido ", nom ," a nuestro programa intensivo para GYM"
+
+fin
+

@@ -1,0 +1,14 @@
+entero C,cant
+inicio
+C<-0
+escriba "ingrese la cantidad de espacios para la lista: "
+lea cant
+si C<cant entonces
+repita
+C<-C+1
+llamar nueva_linea
+escriba C
+hasta C=cant
+
+fin si
+fin

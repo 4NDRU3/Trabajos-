@@ -1,0 +1,13 @@
+real a, b,sum
+inicio
+
+escriba "ingrese el primer digito: "
+lea a
+escriba "ingrese el segundo digito: "
+lea b
+
+sum<-a+b
+
+escriba "resultado:",sum
+
+fin

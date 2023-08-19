@@ -1,0 +1,13 @@
+entero edad
+
+inicio
+
+escriba "Ingrese su edad "
+ lea edad
+si edad>=18 entonces
+escriba "eres mayor de edad, ahora puedes ir preso"
+sino 
+escriba "Te salvaste"
+fin si
+
+fin

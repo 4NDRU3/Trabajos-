@@ -1,0 +1,13 @@
+entero C
+inicio
+C<-0
+
+si C<100 entonces
+repita
+C<-C+1
+llamar nueva_linea
+escriba C
+hasta C=100
+
+fin si
+fin

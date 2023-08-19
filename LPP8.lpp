@@ -1,0 +1,44 @@
+/*Crear un algoritmo que transforme una temperatura N, se asigne la escala de temperatura (Celsius, Fahrenheit, kelvin) y al final imprima los resultados de las 3 escalas de temperatura.*/
+
+real temperatura, celsius, fahrenheit, kelvin
+entero escala
+
+inicio
+
+escriba "por favor ingrese un sistema de escala para la conversion."
+llamar nueva_linea
+escriba " Celsius(Integrese el digito 1), Fahrenheit(Integrese el digito 2), kelvin(Integrese el digito 3): "
+lea escala
+
+escriba "por favor ingrese la temperatura que quiere usar para la conversion"
+lea temperatura
+
+/*Celcius*/
+si escala=1 entonces
+	celsius<-temperatura
+	fahrenheit<-9*escala/5+32
+	kelvin<-escala+273.15
+sino
+/*Fahrenheit*/
+	si escala=2 entonces
+		fahrenheit<- temperatura
+		celsius<- 5*(escala-32)/9
+		kelvin<- 5*(escala-32)/9+273.15
+	sino
+		
+/*kelvin*/
+		si escala=3 entonces
+			kelvin<-temperatura
+			celsius<-escala-273.15
+			fahrenheit<-9*(escala-273.15/5)+32
+		fin si
+	fin si
+fin si
+Escriba "la conversion es: "
+llamar nueva_linea
+escriba "celsius=  ",celsius, " °C"
+llamar nueva_linea
+escriba "fahrenheit= ",fahrenheit," °F"
+llamar nueva_linea
+escriba "kelvin= ",kelvin, " °K"
+fin

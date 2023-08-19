@@ -1,0 +1,24 @@
+/*Crear un algoritmo que convierta el peso de libras a kilogramos y gramos*/
+real kg, gr, lb 
+entero tp
+
+
+inicio
+escriba "Cuantas libras quieres: "
+lea lb
+escriba "lo necesitas en kilo(opcion 1) o gramos(opcion 2): "
+lea tp
+caso tp
+1:
+	kg<-lb*1/2
+2:
+	gr<-lb*500/1
+fin caso 
+
+si tp=1 entonces
+	escriba "su conversion de libra a kilo es ",kg," kg"
+sino
+	escriba "su conversion de libra a gramos es ",gr," gr"
+fin si	
+
+fin
